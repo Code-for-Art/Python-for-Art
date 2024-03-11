@@ -77,6 +77,7 @@ if __name__ == "__main__":
     dst_directory = "path/to/destination"  # 请替换为目标目录路径  
     
     #如文件存储在工作目录aaa文件夹的aaa1子文件夹中，请将路径写为"aaa/aaa1"
+    #如果要使用相对路径，请使用工作目录并信任。除此之外也可使用绝对路径
     #如文件储存在D盘的aaa文件夹中，要将改名的文件放在D盘的bbb文件夹中，请将上面的代码修改为：
     #src_directory = "D:/aaa"  # 请替换为源目录路径  
     #dst_directory = "D:/bbb"  # 请替换为目标目录路径  
